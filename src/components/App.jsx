@@ -2,7 +2,7 @@ import './App.scss';
 import {getLogements} from "../services/back-end-service";
 import {useEffect, useState} from "react";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
-import {Accueil} from "./home/Accueil";
+import {Accueil} from "./accueil/Accueil";
 import {NotFound} from "./erreur/NotFound";
 import {APropos} from "./a-propos/APropos";
 import {Header} from "./header/Header";
