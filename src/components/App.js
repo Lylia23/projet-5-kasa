@@ -1,7 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from '../logo.svg';
+import './App.scss';
+import {getLogements} from "../services/back-end-service";
+import {useEffect, useState} from "react";
 
 function App() {
+  const [logements, updateLogements] = useState(getLogements());
+
+  useEffect(() => {
+    console.log('Effect executé sur logements');
+  }, [logements]);
+
   return (
     <div className="App">
       <header className="App-header">
