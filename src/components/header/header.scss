@@ -1,0 +1,26 @@
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  height: 68px;
+
+  .logo {
+    height: 62px;
+  }
+
+  .nav-link {
+    display: flex;
+    justify-content: right;
+    gap: 30px;
+    align-items: center;
+
+    .link {
+      font-family: Montserrat;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 34.22px;
+      text-align: right;
+      color: #000000;
+    }
+  }
+}
