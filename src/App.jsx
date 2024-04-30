@@ -1,11 +1,11 @@
 import './App.scss';
-import {getLogements} from "../services/back-end-service";
+import {getLogements} from "./services/back-end-service";
 import {useEffect, useState} from "react";
 import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
-import {Accueil} from "./accueil/Accueil";
-import {NotFound} from "./erreur/NotFound";
-import {APropos} from "./a-propos/APropos";
-import {Header} from "./header/Header";
+import {Accueil} from "./pages/accueil/Accueil";
+import {NotFound} from "./pages/erreur/NotFound";
+import {APropos} from "./pages/a-propos/APropos";
+import {Header} from "./components/header/Header";
 
 function App() {
     const [logements, updateLogements] = useState(getLogements());
