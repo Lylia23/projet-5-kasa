@@ -1,0 +1,18 @@
+.not-found-container .not-found-img {
+  width: 597px;
+  height: 263px;
+}
+.not-found-container .erreur-text {
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 51.34px;
+  color: #FF6060;
+}
+.not-found-container .return {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 25.67px;
+  color: black;
+}
+
+/*# sourceMappingURL=notFound.css.map */
