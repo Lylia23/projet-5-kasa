@@ -1,0 +1,55 @@
+.panel {
+  max-width: 1023px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+  $padding: 15px;
+  $transition: 200ms;
+
+  .panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF6060;
+    height: 52px;
+    padding-left: $padding;
+    padding-right: $padding;
+    border-radius: 5px;
+
+    .fleche {
+      $imgTaille: 24px;
+      height: $imgTaille;
+      width: $imgTaille;
+      cursor: pointer;
+      transition: $transition;
+    }
+
+    .fleche-expand {
+      transform: rotate(-180deg);
+      transition: $transition;
+    }
+
+    .titre {
+      color: white;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 34.22px;
+    }
+  }
+
+  .paragraphe {
+    text-align: left;
+    padding-left: $padding;
+    padding-right: $padding;
+    font-size: 20px;
+    max-height: 0;
+    overflow: hidden;
+    visibility: hidden;
+    transition: max-height $transition, visibility $transition;
+  }
+
+  .paragraphe-expand {
+    max-height: 1000px;
+    visibility: visible;
+  }
+}
