@@ -1,0 +1,48 @@
+.panel {
+  max-width: 1023px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 35px;
+}
+.panel .panel-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #FF6060;
+  height: 52px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+.panel .panel-heading .fleche {
+  height: 24px;
+  width: 24px;
+  cursor: pointer;
+  transition: 200ms;
+}
+.panel .panel-heading .fleche-expand {
+  transform: rotate(-180deg);
+  transition: 200ms;
+}
+.panel .panel-heading .titre {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34.22px;
+}
+.panel .paragraphe {
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 20px;
+  max-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  transition: max-height 200ms, visibility 200ms;
+}
+.panel .paragraphe-expand {
+  max-height: 1000px;
+  visibility: visible;
+}
+
+/*# sourceMappingURL=panel.css.map */
