@@ -1,0 +1,25 @@
+.logoFooter {
+  background-color: black;
+  height: 209px;
+  width: 100%;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  .logoImage {
+    width: 122px;
+    height: 39.44px;
+    margin-top: 55px;
+  }
+
+  .texte {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34.22px;
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+}
