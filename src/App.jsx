@@ -19,7 +19,7 @@ function App() {
             <Router>
                 <Header/>
                 <Routes>
-                    <Route path="/" element={<Accueil/>}></Route>
+                    <Route path="/" element={<Accueil logements={logements}/>}></Route>
                     <Route path="/a-propos" element={<APropos/>}></Route>
                     <Route path="*" element={<NotFound/>}></Route>
                 </Routes>
