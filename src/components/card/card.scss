@@ -1,0 +1,26 @@
+.card {
+  $taille: 340px;
+  height: $taille;
+  width: $taille;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  .card-img {
+    height: $taille;
+    width: $taille;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .card-title {
+    position: relative;
+    top: -80px;
+    text-align: left;
+    margin-left: 20px;
+    max-width: 80%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25.67px;
+    color: white;
+    text-shadow: 10px 1px 10px black;
+  }
+}
