@@ -1,7 +1,6 @@
 import './App.scss';
 import {getLogements} from "./services/back-end-service";
-import {useEffect, useState} from "react";
-import {Route, BrowserRouter as Router, Routes} from "react-router-dom";
+import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
 import {Accueil} from "./pages/accueil/Accueil";
 import {NotFound} from "./pages/erreur/NotFound";
 import {APropos} from "./pages/a-propos/APropos";
@@ -9,12 +8,7 @@ import {Header} from "./components/header/Header";
 import {Logement} from "./pages/logement/Logement";
 
 function App() {
-    const [logements, updateLogements] = useState(getLogements());
-
-    useEffect(() => {
-        console.log('Effect executé sur logements');
-    }, [logements]);
-
+    const logements = getLogements();
     return (
         <div className="App">
             <Router>
