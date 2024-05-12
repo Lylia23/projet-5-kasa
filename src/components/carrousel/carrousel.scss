@@ -1,0 +1,39 @@
+@mixin taille-carrousel() {
+  height: 415px;
+  border-radius: 25px;
+}
+
+.carrousel-container {
+  margin-top: 30px;
+
+  .carrousel-img {
+    @include taille-carrousel;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .carrousel-fleche-container {
+    $position: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 0;
+    position: relative;
+    top: -240px;
+    margin-bottom: -$position - 15;
+    .carrousel-fleche {
+      height: $position;
+      cursor: pointer;
+    }
+  }
+
+  .carrousel-index {
+    color: white;
+    font-size: 20px;
+  }
+
+  .hide {
+    visibility: hidden;
+  }
+}

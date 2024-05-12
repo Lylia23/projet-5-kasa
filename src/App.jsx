@@ -6,6 +6,7 @@ import {Accueil} from "./pages/accueil/Accueil";
 import {NotFound} from "./pages/erreur/NotFound";
 import {APropos} from "./pages/a-propos/APropos";
 import {Header} from "./components/header/Header";
+import {Logement} from "./pages/logement/Logement";
 
 function App() {
     const [logements, updateLogements] = useState(getLogements());
@@ -21,6 +22,7 @@ function App() {
                 <Routes>
                     <Route path="/" element={<Accueil logements={logements}/>}></Route>
                     <Route path="/a-propos" element={<APropos/>}></Route>
+                    <Route path="/logement/:id" element={<Logement/>}></Route>
                     <Route path="*" element={<NotFound/>}></Route>
                 </Routes>
             </Router>

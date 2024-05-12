@@ -1,11 +1,11 @@
-import "./card.scss"
+ import "./card.scss"
 import {Link} from "react-router-dom";
 
 export function Card({imagePath, title, id}) {
 
     return (
         <div className="card">
-            <Link to={`/card/${id}`} style={{ textDecoration: 'none' }}>
+            <Link to={`/logement/${id}`} style={{ textDecoration: 'none' }}>
                 <div className="card-img">
                     <img className="card-img" src={imagePath} alt={title}/>
                 </div>
