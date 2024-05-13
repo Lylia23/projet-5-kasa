@@ -1,3 +1,11 @@
-
+.info-logement-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.info-logement-container .info {
+  width: 100%;
+}
 
 /*# sourceMappingURL=logement.css.map */
