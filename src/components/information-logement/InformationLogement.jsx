@@ -1,7 +1,6 @@
 import "./information-logement.scss";
-import {Panel} from "../panel/Panel";
 
-export function InformationLogement({titre, position, tags, description}) {
+export function InformationLogement({titre, position, tags}) {
     return (
         <div className="information-logement">
             <div>
@@ -14,7 +13,7 @@ export function InformationLogement({titre, position, tags, description}) {
                     <p>{tag}</p>
                 </div>))}
             </div>
-            <Panel titre="Description" paragraphe={description}/>
+
         </div>
     )
 }
