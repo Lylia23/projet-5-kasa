@@ -1,0 +1,47 @@
+.host-container {
+  margin-top: 30px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+
+  .profil {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+
+    span {
+      //font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 25.67px;
+      text-align: right;
+      color: #FF6060;
+      padding-top: 15px;
+    }
+
+    .profil-photo {
+      width: 64px;
+      height: 64px;
+      border-radius: 32px;
+
+      img {
+        width: 64px;
+        height: 64px;
+        border-radius: 32px;
+      }
+    }
+  }
+
+  .rating {
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
+    padding-top: 40px;
+
+    .star-rating {
+      height: 24px;
+      width: 24px;
+
+    }
+  }
+}

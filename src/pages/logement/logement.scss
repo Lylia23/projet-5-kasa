@@ -9,3 +9,13 @@
   }
 
 }
+
+.description-equipement {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap:30px;
+  .info {
+    width: 100%;
+  }
+}

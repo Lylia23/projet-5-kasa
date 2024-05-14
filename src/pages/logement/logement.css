@@ -8,4 +8,14 @@
   width: 100%;
 }
 
+.description-equipement {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 30px;
+}
+.description-equipement .info {
+  width: 100%;
+}
+
 /*# sourceMappingURL=logement.css.map */

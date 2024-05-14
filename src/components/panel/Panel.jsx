@@ -2,7 +2,7 @@ import "./panel.scss"
 import fleche from "../../assets/icon/fleche.svg"
 import {useState} from "react";
 
-export function Panel({titre, paragraphe}) {
+export function Panel({titre, paragraphe, isTableau}) {
     const [flecheRotation, setFlecheRotation] = useState(false);
     return (
         <div className="panel">
@@ -13,7 +13,11 @@ export function Panel({titre, paragraphe}) {
                      src={fleche} alt={titre}/>
             </div>
             <div className={flecheRotation ? "paragraphe paragraphe-expand" : "paragraphe"}>
-                <p>{paragraphe}</p>
+                <div>
+                    {isTableau? paragraphe.map((p,index)=>
+                        (<div key={index}>{p}</div>)
+                    ): paragraphe}
+                </div>
             </div>
         </div>
     )
