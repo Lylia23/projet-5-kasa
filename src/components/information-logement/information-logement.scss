@@ -75,6 +75,7 @@
     .information-tags {
       display: flex;
       justify-content: left;
+      flex-wrap: wrap;
       gap: 15px;
       margin-bottom: -15px;
       .information-tag {
