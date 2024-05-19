@@ -4,4 +4,11 @@
   margin: auto;
 }
 
+@media (max-width: 1120px) {
+  .App {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
+
 /*# sourceMappingURL=App.css.map */

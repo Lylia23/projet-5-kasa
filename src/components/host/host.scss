@@ -20,14 +20,15 @@
     }
 
     .profil-photo {
-      width: 64px;
-      height: 64px;
-      border-radius: 32px;
+      $taille:64px;
+      width: $taille;
+      height: $taille;
+      border-radius: $taille/2;
 
       img {
-        width: 64px;
-        height: 64px;
-        border-radius: 32px;
+        width: $taille;
+        height: $taille;
+        border-radius: $taille/2;
       }
     }
   }
@@ -42,6 +43,58 @@
       height: 24px;
       width: 24px;
 
+    }
+  }
+}
+
+
+@media (max-width: 600px){
+  .host-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+
+    .profil {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+
+      span {
+        //font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 17.11px;
+        text-align: right;
+        color: #FF6060;
+        padding-top: 7.2px;
+      }
+
+      .profil-photo {
+        $taille:32px;
+        width: $taille;
+        height: $taille;
+        border-radius: $taille/2;
+
+        img {
+          width: $taille;
+          height: $taille;
+          border-radius: $taille/2;
+        }
+      }
+    }
+
+    .rating {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 0;
+      gap: 7.5px;
+      .star-rating {
+        $tailleEtoile:13px;
+        height: $tailleEtoile;
+        width:  $tailleEtoile;
+      }
     }
   }
 }

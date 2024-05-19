@@ -29,4 +29,24 @@
   visibility: hidden;
 }
 
+@media (max-width: 600px) {
+  .carrousel-container {
+    margin-top: 30px;
+    height: 255px;
+    border-radius: 25px;
+  }
+  .carrousel-container .carrousel-img {
+    height: 255px;
+    border-radius: 25px;
+  }
+  .carrousel-container .carrousel-fleche-container {
+    position: relative;
+    top: -160px;
+    margin-bottom: -35px;
+  }
+  .carrousel-container .carrousel-fleche-container .carrousel-fleche {
+    height: 20px;
+  }
+}
+
 /*# sourceMappingURL=carrousel.css.map */

@@ -28,3 +28,38 @@
     }
   }
 }
+
+@media (max-width: 600px){
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    height: 34px;
+
+    .logo {
+      height: 37.46px;
+    }
+
+    .nav-link {
+      display: flex;
+      justify-content: right;
+      gap: 15px;
+      align-items: center;
+      .active {
+        text-decoration: underline !important;
+      }
+
+      .link {
+        // font-family: Montserrat;
+        font-size: 12px;
+        text-decoration: none;
+        font-weight: 500;
+        line-height: 17.11px;
+        text-align: right;
+        color: #000000;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+}

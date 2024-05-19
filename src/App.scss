@@ -1,5 +1,13 @@
 .App {
   text-align: center;
   max-width: 1240px;
-  margin:auto;
+  margin: auto;
+}
+
+@media (max-width: 1120px) {
+  $marginSpace: 3%;
+  .App {
+    margin-left: $marginSpace;
+    margin-right: $marginSpace;
+  }
 }

@@ -18,4 +18,27 @@
   width: 100%;
 }
 
+@media (max-width: 600px) {
+  .info-logement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0;
+  }
+  .info-logement-container .info {
+    width: 100%;
+  }
+  .description-equipement {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: start;
+    gap: 0;
+  }
+  .description-equipement .info {
+    width: 100%;
+  }
+}
+
 /*# sourceMappingURL=logement.css.map */
