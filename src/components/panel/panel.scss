@@ -53,3 +53,42 @@
     visibility: visible;
   }
 }
+
+@media (max-width: 600px) {
+  .panel {
+    margin-top: 17.5px;
+    $padding: 15px;
+    $transition: 200ms;
+
+    .panel-heading {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #FF6060;
+      height: 30px;
+      padding-left: $padding;
+      padding-right: $padding;
+      border-radius: 5px;
+
+      .fleche {
+        $imgTaille: 16px;
+        height: $imgTaille;
+        width: $imgTaille;
+      }
+
+      .titre {
+        color: white;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 18.54px;
+      }
+    }
+
+    .paragraphe {
+      padding-left: $padding;
+      padding-right: $padding;
+      font-size: 13px;
+    }
+  }
+}
+

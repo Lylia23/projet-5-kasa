@@ -25,4 +25,34 @@
   color: #000000;
 }
 
+@media (max-width: 600px) {
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    height: 34px;
+  }
+  .header-container .logo {
+    height: 37.46px;
+  }
+  .header-container .nav-link {
+    display: flex;
+    justify-content: right;
+    gap: 15px;
+    align-items: center;
+  }
+  .header-container .nav-link .active {
+    text-decoration: underline !important;
+  }
+  .header-container .nav-link .link {
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    line-height: 17.11px;
+    text-align: right;
+    color: #000000;
+    text-transform: uppercase;
+  }
+}
+
 /*# sourceMappingURL=header.css.map */

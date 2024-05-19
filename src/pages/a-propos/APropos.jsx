@@ -9,9 +9,13 @@ export function APropos() {
     return (
         <div>
             <PresentationAccueil imgPath={image}/>
-            {datas.map((data, index) =>
-                <Panel key={index} titre={data.title} paragraphe={data.content}/>
-            )}
+            <div
+            className="info-apropos">
+                {datas.map((data, index) =>
+                    <Panel key={index} titre={data.title} paragraphe={data.content}/>
+                )}
+            </div>
+
         </div>
     )
 }

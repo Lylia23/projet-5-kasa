@@ -45,4 +45,35 @@
   visibility: visible;
 }
 
+@media (max-width: 600px) {
+  .panel {
+    margin-top: 17.5px;
+  }
+  .panel .panel-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FF6060;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+  }
+  .panel .panel-heading .fleche {
+    height: 16px;
+    width: 16px;
+  }
+  .panel .panel-heading .titre {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 18.54px;
+  }
+  .panel .paragraphe {
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+  }
+}
+
 /*# sourceMappingURL=panel.css.map */

@@ -46,3 +46,54 @@
     }
   }
 }
+
+@media (max-width: 600px){
+  .information-logement {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+
+    .information-titre {
+      //font-family: Montserrat;
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 51.34px;
+      text-align: left;
+      color: #FF6060;
+    }
+
+    .information-position {
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 20px;
+      text-align: left;
+      margin-top: -25px;
+      margin-top: -25px;
+    }
+
+    .information-tags {
+      display: flex;
+      justify-content: left;
+      gap: 15px;
+      margin-bottom: -15px;
+      .information-tag {
+        //font-family: Montserrat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        font-weight: 700;
+        line-height: 15px;
+        text-align: center;
+        color: white;
+        background-color: #FF6060;
+        padding-left: 6px;
+        padding-right: 6px;
+        border-radius: 10px;
+        height: 18px;
+        min-width: 85px;
+      }
+    }
+  }
+}

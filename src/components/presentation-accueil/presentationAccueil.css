@@ -35,4 +35,40 @@
   display: none;
 }
 
+@media (max-width: 600px) {
+  .presentation {
+    margin-top: 30px;
+    height: 90px;
+  }
+  .presentation .presentation-accueil {
+    height: 111px;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  .presentation .presentation-accueil-text, .presentation .hide {
+    height: 111px;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    top: -114px;
+    left: -2px;
+    background-color: rgba(0, 0, 0, 0.6);
+  }
+  .presentation .presentation-accueil-text .text, .presentation .hide .text {
+    margin-left: 10px;
+    max-width: 60%;
+    text-align: left;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+  }
+}
+
 /*# sourceMappingURL=presentationAccueil.css.map */

@@ -7,3 +7,14 @@
   grid-template-columns: repeat(3, 1fr);
   padding: 50px 30px 30px 70px;
 }
+
+@media (max-width: 1120px) {
+  .card-container {
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 20px;
+  }
+}

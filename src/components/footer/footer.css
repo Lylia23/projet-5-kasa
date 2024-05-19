@@ -22,4 +22,21 @@
   background-color: black;
 }
 
+@media (max-width: 600px) {
+  .logoFooter .logoImage {
+    width: 122px;
+    height: 39.44px;
+    margin-top: 55px;
+  }
+  .logoFooter .texte {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 17.11px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    width: 30%;
+  }
+}
+
 /*# sourceMappingURL=footer.css.map */
