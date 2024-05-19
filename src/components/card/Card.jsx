@@ -9,8 +9,9 @@ export function Card({imagePath, title, id}) {
                 <div className="card-img">
                     <img className="card-img" src={imagePath} alt={title}/>
                 </div>
-
-                <h3 className="card-title">{title}</h3>
+                <div className="section-card-title">
+                    <h3 className="card-title">{title}</h3>
+                </div>
             </Link>
         </div>
 

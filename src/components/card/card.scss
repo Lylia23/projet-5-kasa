@@ -11,16 +11,24 @@
     border-radius: 10px;
   }
 
-  .card-title {
+  .section-card-title {
     position: relative;
-    top: -80px;
-    text-align: left;
-    margin-left: 20px;
-    max-width: 80%;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 25.67px;
-    color: white;
-    text-shadow: 10px 1px 10px black;
+    top: -120px;
+    height: 120px;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+
+    .card-title {
+      text-align: left;
+      margin-left: 20px;
+      max-width: 50%;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: 25.67px;
+      color: white;
+      text-shadow: 10px 1px 10px black;
+
+    }
   }
 }
