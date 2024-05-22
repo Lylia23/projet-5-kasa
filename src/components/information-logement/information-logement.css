@@ -24,6 +24,7 @@
   justify-content: left;
   gap: 15px;
   margin-bottom: -15px;
+  flex-wrap: wrap;
 }
 .information-logement .information-tags .information-tag {
   display: flex;

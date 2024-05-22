@@ -56,9 +56,15 @@
       position: relative;
       top: -160px;
       margin-bottom: -$position - 15;
+
       .carrousel-fleche {
         height: $position;
       }
+    }
+    .carrousel-index {
+      font-size: 20px;
+      position: relative;
+      top: -70px;
     }
   }
 }

@@ -47,6 +47,11 @@
   .carrousel-container .carrousel-fleche-container .carrousel-fleche {
     height: 20px;
   }
+  .carrousel-container .carrousel-index {
+    font-size: 20px;
+    position: relative;
+    top: -70px;
+  }
 }
 
 /*# sourceMappingURL=carrousel.css.map */
