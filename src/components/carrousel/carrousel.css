@@ -51,6 +51,7 @@
     font-size: 20px;
     position: relative;
     top: -70px;
+    visibility: hidden !important;
   }
 }
 
